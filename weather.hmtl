@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head> 
+<meta charset ="utf-8">
+<title> Weather Forcaster</title>
+</head>
+<body>
+    <div class="city"></div>
+    <div class="wind"></div>
+    <div class="temperture"></div>
+    <div class="tempF"></div>
+    <script>
+
+    $.ajax({
+            url:queryURL,
+            method:"GET"
+                })
+    </script>
+</body>
+</hml>
